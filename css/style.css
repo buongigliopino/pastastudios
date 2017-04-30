@@ -17,7 +17,10 @@ li{
   background-color: pink;
   height: 400px;
 }
-.chi-siamo{
-  background-color:red;
-  height:80px;
+hr{
+  background-color: yellow;
+  width: 200px;
+  height: 5px;
+  float: left;
+
 }
