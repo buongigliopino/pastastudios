@@ -1,0 +1,23 @@
+html{
+  font-size: 16px;
+
+}
+.menu-navigazione{
+ padding-top: 20px;
+}
+li{
+  display: inline;
+  padding-right: 5px;
+}
+
+
+
+
+.video-presentazione{
+  background-color: pink;
+  height: 400px;
+}
+.chi-siamo{
+  background-color:red;
+  height:80px;
+}
