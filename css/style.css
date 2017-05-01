@@ -1,26 +1,29 @@
 html{
   font-size: 16px;
-
 }
 .menu-navigazione{
- padding-top: 30px;
+ padding-top: 20px;
 }
 li{
   display: inline;
-  padding-right: 20px;
+  padding-right: 30px;
+
+}
+.video-presentazione img{
+  width: 100%;
 }
 
-
-
-
-.video-presentazione{
-  background-color: pink;
-  height: 400px;
-}
 hr{
   background-color: yellow;
-  width: 200px;
+  width: 50px;
   height: 5px;
   float: left;
-
 }
+
+  .logo{
+    padding-left: 150px;
+  }
+  .immagine-sezione-1{
+    padding-left: 80px;
+    padding-top: 20px;
+  }
