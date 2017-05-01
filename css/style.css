@@ -1,13 +1,20 @@
 html{
   font-size: 16px;
 }
+.titolo h1{
+  padding-bottom:  10px;
+}
 .menu-navigazione{
- padding-top: 20px;
+ padding-top: 30px;
 }
 li{
   display: inline;
   padding-right: 30px;
+  color: black;
 
+}
+li a{
+  color: black;
 }
 .video-presentazione img{
   width: 100%;
@@ -22,8 +29,41 @@ hr{
 
   .logo{
     padding-left: 150px;
+    padding-top: 10px;
   }
   .immagine-sezione-1{
     padding-left: 80px;
     padding-top: 20px;
+  }
+  .immagine-sezione-2{
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+  .immagine-sezione-3{
+    padding-left: 80px;
+    padding-top: 20px;
+  }
+  .testo-sezione-1 a{
+    background-color: yellow;
+    color: black;
+    padding-top: 5px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  .testo-sezione-2 a{
+    background-color: yellow;
+    color: black;
+    padding-top: 5px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+  .testo-sezione-3 a{
+    background-color: yellow;
+    color: black;
+    padding-top: 5px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
   }
