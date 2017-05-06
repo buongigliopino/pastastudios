@@ -9,24 +9,42 @@
   </head>
 
   <body>
-    <div class="container-fluid nav-bar">
-      <div class="row">
-        <div class="col-xs-2 col-md-2 logo">
-          <img  src="image/logo.png" alt="logo">
+
+    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="1" >
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img class="navbar__logo" alt="Brand" src="image/logo.png">
+            <h1 class="navbar__titolo">PASTA STUDIOS</h1>
+          </a>
         </div>
-        <div class="col-xs-4 col-md-4 titolo">
-            <h1>PASTA STUDIOS</h1>
-        </div>
-        <div class="col-xs-6 col-md-6 menu-navigazione">
-          <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">CHI SIAMO</a></li>
-            <li><a href="#">RICETTE</a></li>
-            <li><a href="#">PRODOTTI</a></li>
-            <li><a href="#">RICETTE</a></li>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+
+
           </ul>
-        </div>
-      </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container-fluid ">
+
 
 
 
@@ -41,12 +59,14 @@
         <hr>
       </div>
       <div class="row">
-        <div class="col-xs-4 col-md-4 sezione-1">
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4 ">
           <div class="row">
-            <div class="col-xs-4 col-md-4 immagine-sezione-1">
+            <div class="col-xs-4 col-md-4 immagine-sezione">
               <img src="image/sezione1.png" alt="">
             </div>
-            <div class="col-xs-8 col-md-8 testo-sezione-1">
+            <div class="col-xs-8 col-md-8 testo-sezione">
               <h3>L'AZIENDA</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <a href="#">SCOPRI</a>
@@ -54,24 +74,26 @@
           </div>
         </div>
 
-        <div class="col-xs-4 col-md-4 sezione-2">
+        <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="row">
-                <div class="col-xs-4 col-md-4 immagine-sezione-2">
+                <div class="col-xs-4 col-md-4 immagine-sezione">
                   <img src="image/sezione2.png" alt="">
                 </div>
-                <div class="col-xs-8 col-md-8 testo-sezione-2">
+                <div class="col-xs-8 col-md-8 testo-sezione">
                   <h3>L'AZIENDA</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <a href="#">SCOPRI</a>
                 </div>
               </div>
         </div>
-        <div class="col-xs-4 col-md-4 sezione-3">
+
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="row">
-                <div class="col-xs-4 col-md-4 immagine-sezione-3">
+                <div class="col-xs-4 col-md-4 immagine-sezione">
                   <img src="image/sezione3.png" alt="">
                 </div>
-                <div class="col-xs-8 col-md-8 testo-sezione-3">
+                <div class="col-xs-8 col-md-8 testo-sezione testo-sezione--evidenza">
                   <h3>L'AZIENDA</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   <a href="#">SCOPRI</a>
@@ -80,7 +102,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-6 col-md-6 pasta-al-sugo">
+        <div class="col-xs-12 col-md-6 pasta-al-sugo">
       <div class="swiper-container">
          <div class="swiper-wrapper">
            <div class="swiper-slide">Slide 1</div>
@@ -109,8 +131,10 @@
       crossorigin="anonymous">
     </script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
-        <script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+    <script>
   var swiper = new Swiper('.swiper-container', {
       pagination: '.swiper-pagination',
       paginationClickable: true,

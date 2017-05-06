@@ -1,8 +1,20 @@
 html{
   font-size: 16px;
 }
-.titolo h1{
+.navbar-brand .navbar__logo{
+  display: inline;
+}
+h1.navbar__titolo{
   padding-bottom:  10px;
+  display: inline;
+}
+.navbar-brand{
+  height: 70px;
+}
+.navbar-default{
+  background-color: #fff;
+  width: 100%;
+  z-index: 2;
 }
 .menu-navigazione{
  padding-top: 30px;
@@ -32,44 +44,25 @@ hr{
     padding-left: 150px;
     padding-top: 10px;
   }
-  .immagine-sezione-1{
+  .immagine-sezione{
     padding-left: 80px;
     padding-top: 20px;
   }
-  .immagine-sezione-2{
-    padding-left: 80px;
-    padding-top: 20px;
-  }
-  .immagine-sezione-3{
-    padding-left: 80px;
-    padding-top: 20px;
-  }
-  .testo-sezione-1 a{
+
+  .testo-sezione a{
     background-color: yellow;
     color: black;
     padding-top: 5px;
     padding-left:5px;
     padding-right: 5px;
     padding-bottom: 5px;
+    border-radius: 10px 10px 10px 10px;
   }
-  .testo-sezione-2 a{
-    background-color: yellow;
-    color: black;
-    padding-top: 5px;
-    padding-left:5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-  }
-  .testo-sezione-3 a{
-    background-color: yellow;
-    color: black;
-    padding-top: 5px;
-    padding-left:5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+  .testo-sezione--evidenza{
+    color: red;
   }
   .swiper-container {
-       width: 500px;
+       width: 100%;
        height: 300px;
        margin: 20px auto;
    }
@@ -77,17 +70,8 @@ hr{
        text-align: center;
        font-size: 18px;
        background: #fff;
-       /* Center slide text vertically */
-       display: -webkit-box;
-       display: -ms-flexbox;
-       display: -webkit-flex;
+
        display: flex;
-       -webkit-box-pack: center;
-       -ms-flex-pack: center;
-       -webkit-justify-content: center;
        justify-content: center;
-       -webkit-box-align: center;
-       -ms-flex-align: center;
-       -webkit-align-items: center;
        align-items: center;
    }
